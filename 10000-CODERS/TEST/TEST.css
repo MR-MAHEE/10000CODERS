@@ -1,0 +1,8 @@
+table,th,td{
+    border: midnightblue solid 4px;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    padding: 20px;
+}

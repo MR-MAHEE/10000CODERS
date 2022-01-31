@@ -1,0 +1,21 @@
+section > .p1{
+    color: aqua; background-color: black;
+}
+section >.c4{
+    color: blue; background-color: yellow;font-style: oblique;
+}
+section >.c3{
+    color: yellow; background-color:mediumturquoise;
+}
+div > h1{
+    color: hotpink; background-color: gray; font-style: oblique;
+}
+div>h2{
+    color: blue; background-color: cyan; font: bolder;
+}
+div>p{
+    aqua; background-color: plum; font: bolder;
+}
+div>h3{
+    color:orchid; background-color: azure;
+}

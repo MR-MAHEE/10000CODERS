@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+      <head>
+	        <title>REGISTRATION FORM</title>
+	  </head>
+	  <body>
+	        <h1>REGISTRATION FORM</h1>
+			<h2>HOME | POLICIES | REGISTER | PROFILE<h2>
+			<h3><p>Please complete the following form to create a new account on the StratusLab reference cloud infrastrctures.</p></h3>
+			<h2>fields marked with an asterisk (*) are mandatory.</h2>
+			<form>
+			      <label for='user_name'>User Name (*) </label>
+				  <input type='text' name='User Name id='user_name'/></br><br>
+			      <label for='e-mail'>Email Address (*)</label>
+				  <input type='text' id='e-mail' name='Email Address'/></br>
+				  <label for='gname'>Given Name(s) (*)</label>
+				  <input type='text' id='gname' name='Given Name'/></br>
+				  <label for='fname'>Family Name (*)</label>
+				  <input type='text' id='fname' name='Family Name'/></br>
+				  <label for='x500_dn'>X500 DN</label>
+				  <input type='text' id='x500_dn' name='X500 DN'/></br>
+				  <label for='user_password'>Password (*)</label>
+				  <input type='password' id='user_password' name='Password'/></br>
+				  <label for='user_password'>Password Check (*)</label>
+				  <input type='password' id='user_password' name='Password Check'/></br>
+				  <label for='message'>Message</label>
+				  <textarea id='message' name='Message' rows='4' cols='60'></textarea></br>
+				  <label for='t&c'>I agree to the defined <a href='https://en.wikipedia.org/wiki/Terms_of_service'>terms,conditions,and policies</a> (*)</label>
+				  <input type='checkbox' id='t&c' name='t&c'/></br>
+				  <input type='submit' value='SUBMIT'>
+			</form>
+	  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+      <head>
+      <title>IMPORTANT TAGS IN HTML</title>
+	  </head>
+	  <body>
+	        <h2>IMPORTANT TAGS IN HTML</h2>
+			<h2>BLOCK LEVEL ELEMENTS</h2>
+			    <ul>
+				    <li>h1<li>
+					<li>h2<li>
+					<li>h3<li>
+					<li>h4</li>
+					<li>h5</li>
+					<li>h6</li>
+					<li>ul</li>
+					<li>ol</li>
+					<li>dl</li>
+					<li>pre</li>
+					<li>hr/</li>
+					<li>blockquote</li>
+					<li>address</li>
+				</ul>
+		    <h2>INLINE ELEMENTS</h2>
+			<ul>
+			    <li>abbr</li>
+				<li>acronym</li>
+				<li>b</li>
+				<li>bdo</li>
+				<li>big</li>
+				<li>br</li>
+				<li>button</li>
+				<li>cite</li>
+				<li>code</li>
+				<li>dfn</li>
+				<li>em</li>
+				<li>i</li><li></li>
+				<li>img</li>
+				<li>input</li>
+				<li>kbd</li>
+				<li>label</li>
+				<li>map</li>
+				<li>q</li>
+				<li>sub</li>
+				<li>sup</li>
+			</ul>
+	  </body>
+</html>
+</html>

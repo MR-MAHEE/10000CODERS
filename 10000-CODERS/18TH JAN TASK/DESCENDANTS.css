@@ -1,0 +1,24 @@
+.gp .p1 .c1{
+    color: aqua; background-color: blueviolet; font-style: italic;
+}
+.p1 {
+    color: aliceblue; background-color: blue;
+}
+.p2 .c4{
+    color: blue; background-color: gold;font-style: oblique;
+}
+.gp {
+    color: yellow; background-color: hotpink;
+}
+h1{
+    color: hotpink; background-color: burlywood; font-style: oblique;
+}
+h2{
+    color: brown; background-color: cyan; font: bolder;
+}
+div p{
+    color: black; background-color: red; font: bolder;
+}
+div h3{
+    color:orchid; background-color: azure;
+}

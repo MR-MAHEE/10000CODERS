@@ -1,0 +1,11 @@
+p::first-line {
+    color:red;
+    font-variant: small-caps;
+  }
+  p::first-letter {
+    color: royalblue;
+    font-variant: normal;
+  }
+  h2::before {
+    color:darkslateblue ;
+  }

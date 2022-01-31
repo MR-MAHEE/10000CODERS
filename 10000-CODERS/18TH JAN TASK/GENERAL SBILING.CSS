@@ -1,0 +1,9 @@
+h1~ul{
+    color: darkgray;background-color: black;font-style: oblique;
+}
+h3~ol{
+    color: black;background-color: blanchedalmond;
+}
+h2~ul{
+    color: RED;background-color:darkgray;font-style: oblique;
+}

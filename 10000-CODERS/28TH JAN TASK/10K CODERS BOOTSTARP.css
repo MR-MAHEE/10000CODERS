@@ -1,0 +1,292 @@
+header{
+    background-color: whitesmoke;
+    padding-bottom: 12px;
+}
+.banner{
+    line-height: 1.5;
+    background-color: whitesmoke;
+    
+    padding-bottom: 40px;
+}
+.graphics{
+    background: url(https://www.10000coders.co/assets/banner-graph.svg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner h3{
+    font-weight: 700;
+    font-size: 1.425rem;
+    color: #052442;
+    line-height: 1.5;
+}
+.banner h1{
+    font-size: 1.875rem;
+    margin: 2rem 0;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: 2px;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+}
+.button{
+    width: 13rem;
+    height: 3.5rem;
+    margin-bottom: 12px;
+}
+.gs{
+    font-family: "Nunito",sans-serif;
+    padding-bottom: 40px;
+}
+.gs img{
+    transform: scale(0.33,0.33);
+    justify-content: center;
+    font-weight: 700;
+}
+.gb{
+    text-align: center;
+}
+.gs h2{
+    font-size: 1.75rem;
+    color: #052442;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 3.75rem;
+    text-transform: capitalize;
+    margin-bottom: -20px;
+    padding-top: 40px;
+}
+.gs p{
+    color: #2F4744;
+    font-weight: 600;
+    margin-top: -12px;
+}
+.alm p{
+    color: #004BA8;
+    font-weight: 700;
+}
+.alm h3{
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    color: #2F4744;
+}
+.cs{
+    background-image: url(https://www.10000coders.co/assets/technologies.svg);
+    background-color: #EBF0F9 ;
+    font-family: "Nunito",sans-serif;
+    padding-bottom: 3rem;
+}
+.cs h2{
+    color: #052442;
+    padding: 48px 0px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+ul{
+    list-style-type: armenian;
+}
+.cs h4{
+    color: #004BA8;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding: 1.5rem 1rem; 
+}
+.cs p{
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.cs section{
+    text-align: center;
+}
+.dc{
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    line-height: 2.5;
+    margin-left: 80px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.cs h4+span{
+    position: absolute;
+    left: -84px;
+    top: 14px;
+    background-color: #004BA8;
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.founder{
+    text-align: center;
+    font-family: "Nunito",sans-serif;
+}
+.founder h2{
+    font-size: 1.75rem;
+    color: #052442;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 3.75rem;
+    margin-top: 3rem;
+}
+.fm{
+    display: flex;
+    text-align: left;
+}
+.fm img{
+    padding-right: 40px;
+}
+h4+span{
+    font-weight: bold;
+    color: #2F4744;
+    font-size: large;
+}
+.fm h4{
+    padding: 0px;
+    line-height: 0;
+    text-align: left;
+    color: #004BA8;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.fm p{
+    line-height: 2;
+}
+.fm+p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2F4744;
+    padding: 40px 0px;
+}
+.moving{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 260px;
+    font-family: "Nunito",sans-serif;
+}
+.moving h2{
+    padding: 40px 0px;
+    font-size: 1.75rem;
+    color: #052442;
+    font-weight: 900;
+}
+footer{
+    height: 200px;
+    line-height: 200px;
+    background-color:  #2F4744;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: "Nunito",sans-serif;
+}
+.wsa{
+    padding-top: 80px;
+    font-family: "Nunito",sans-serif;
+}
+.wsa h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #052442;
+}
+.wsa span{
+    background-color: #eaf9ec;
+    line-height: 3;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 280px;
+}
+.wsa p{
+    font-size: large;
+    font-weight: bold;
+    color: #2F4744;
+    text-align: center;
+    margin-bottom: 90px;
+    padding-top: 40px;
+}
+.wsna h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #052442;
+}
+.wsna span{
+    background-color: #f9eaec;
+    line-height: 3;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 280px;
+}
+.wsna{
+    padding-bottom: 100px;
+    font-family: "Nunito",sans-serif;
+}
+.lm{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+    font-family: "Nunito",sans-serif;
+}
+.lm br+span{
+    padding-bottom: 60px;
+}
+.lm h3{
+    color: #2F4744;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 28px 0px;
+}
+.lm p{
+    font-size: 20px;
+    color: #2F4744;
+    padding-top: 60px;
+    padding-inline: 80px;
+}
+.cs h4+span{
+    position: absolute;
+    left: -84px;
+    top: 14px;
+    background-color: #004BA8;
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.lsf div{
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+.fb{
+    background-color: #4267B2;
+}
+.ms{
+    background-color: #448AFF;
+}
+.wa{
+    background-color:  #25d366;
+}
+.em{
+    background-color:  #7d7d7d;
+}
+.lsf{
+    position: fixed;
+    top: 33%;
+    align-content: center;
+}
+.lsf img{
+    transform: scale(1.5);
+}
+.body{
+    font-family: "Nunito",sans-serif;
+}

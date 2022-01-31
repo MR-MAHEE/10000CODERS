@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://wallpapercave.com/wp/wp4676582.jpg);
+    background-size: cover;
+}
+header section{
+    display: flex;
+}
+header div{
+    flex: 1;
+}
+header div img{
+    padding: 20px;
+}
+header nav{
+    height: 100px;
+}
+.hd{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+ul{
+    list-style-type: none;
+    justify-content: flex-end;
+}
+ ul li{
+    display: inline-block;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+} 
+a:visited {
+    text-decoration: none;
+    color: palevioletred;
+} 
+a:hover {
+    text-decoration: underline;
+    color: burlywood;
+} 
+a:active {
+    text-decoration: underline;
+}
+.login{
+    border: 2px whitesmoke;
+    border-style: double;
+    color: azure;
+}
+@media screen and (min-width:768px)and(max-width:1023px){
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: darkslateblue;
+    }
+}
+main{
+    background-color:lavender;
+}
+main section{
+    display: flex;
+}
+.ms{
+    background-image: url(https://www.99images.com/download-image/772583/1920x1080);
+    opacity: 0.9;
+}
+.msd{
+    flex: 1;
+    padding-inline: 80px;
+    padding: 80px;
+}
+.i1{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-left: 200px;
+}
+.i2{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-left: 200px;
+}
+.i3{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-left: 200px;
+}
+.i4{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-left: 200px;
+}
+.i5{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-left: 200px;
+}
+h2{
+    padding-top: 40px;
+}
+.c9{
+    text-align: end;
+}
+.ecs{
+    display: block;
+    background-color: lavenderblush;
+}
+h3{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.escd{
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+}
+.escd img{
+    border-radius: 50%;
+}
+.pecs{
+    display: block;
+    padding-bottom: 40px;
+}
+.pecsd{
+    flex: 1;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 48px;
+    border: 8px solid lavender;
+    border-style: double ;
+    border-radius: 50%;
+    background-color: burlywood; 
+}
+footer{
+    background-color: darkslateblue;
+}footer div{
+    display: flex;
+}
+footer img{
+    padding: 20px;
+    flex: 1;
+    padding-inline-start: 200px;
+}
+.fd{
+    flex: 2;
+    text-align: center;
+    padding-top: 40px;
+}
+.fn ul li{
+    display: block;
+}
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.fn{
+    flex: 1;
+    text-align: center;
+}

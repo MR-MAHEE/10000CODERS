@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://pixelz.cc/wp-content/uploads/2017/11/reindeer-at-sunset-uhd-4k-wallpaper.jpg);
+    background-size: cover;
+}
+header section{
+    display: flex;
+}
+header div{
+    flex: 1;
+}
+header div img{
+    padding: 20px;
+}
+header nav{
+    height: 100px;
+}
+.hd{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+ul{
+    list-style-type: none;
+    justify-content: flex-end;
+}
+ ul li{
+    display: inline-block;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+a:link {
+    text-decoration: none;
+} 
+a:visited {
+    text-decoration: none;
+} 
+a:hover {
+    text-decoration: underline;
+} 
+a:active {
+    text-decoration: underline;
+}
+.login{
+    border: 2px whitesmoke;
+    border-style: double;
+    color: azure;
+}
+main{
+    background-color: lavender;
+}
+.ms1{
+    display: flex;
+    padding: 40px;
+}
+.ms1c{
+    flex: 1;
+    text-align: center;
+}
+.ms2{
+    display: flex;
+    padding: 40px;
+}
+.ms2c{
+    flex: 1;
+    text-align: center;
+}
+.ms3{
+    display: flex;
+    padding: 40px;
+}
+.ms3c{
+    flex: 1;
+    text-align: center;
+}
+footer{
+    background-color: burlywood;
+}
+footer div{
+    display: flex;
+}
+footer img{
+    padding: 20px;
+    flex: 1;
+    padding-inline-start: 200px;
+}
+.fd{
+    flex: 2;
+    text-align: center;
+    padding-top: 40px;
+}
+.fn ul li{
+    display: block;
+}
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.fn{
+    flex: 1;
+    text-align: center;
+}

@@ -1,0 +1,284 @@
+<DOCTYPE html>
+<html>
+      <head>
+	        <!--TITLE TAG-->
+	        <title>BASICS OF HTML</title>
+	  </head>
+	  <body>
+	        <!--HEADING TAGS-->
+	        <h1>WELCOME TO HTML</h1>
+			<h2>WELCOME TO HTML</h2>
+			<h3>WELCOME TO HTML</h3>
+			<h4>WELCOME TO HTML</h4>
+			<h5>WELCOME TO HTML</h5>
+			<h6>WELCOME TO HTML</h6>
+			<!--PARAGRAPH TAG-->
+			<p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+			<!--LIST TAGS-->
+			<!--ORDERD LIST TAG-->
+			<ol type='I'>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ol>
+			<!--UNORDERED LIST TAG-->
+			<ul type=circle>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ul>
+			<!--DEFINATION TAG-->
+			<dl>
+			    <dt><h2>HTML<h2></dt>
+				<dd>HyperText Markup Language</dd>
+			</dl>
+			<!--IMAGE TAG-->
+			<pre>
+			<img src='C:\Users\mahem\Downloads/wp9103567-itachi-4k-desktop-wallpapers.png' alt='ITACHI' height=400 width= 700>
+			
+			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png' alt=HTML LOGO>
+			</pre>
+			<!--ANCHOR TAG-->
+			<pre>
+			
+			<a href='https://en.wikipedia.org/wiki/HTML'><h2>HTML</h2></a>
+			
+			</pre>
+			<!--TABLE TAG-->
+			<table border=2>
+				   <tr>
+				       <th>MONTH</th>
+					   <th>DAYS</th>
+				   </tr>
+				   <tr>
+				       <td>JANUARY</td>
+					   <td>31</td>
+				   </tr>
+				   <tr>
+				       <td>FEBRUARY</td>
+					   <td>28/29</td>
+				   </tr>
+			</table>
+			<!--HEADING TAGS-->
+	        <h1>WELCOME TO CSS</h1>
+			<h2>WELCOME TO CSS</h2>
+			<h3>WELCOME TO CSS</h3>
+			<h4>WELCOME TO CSS</h4>
+			<h5>WELCOME TO CSS</h5>
+			<h6>WELCOME TO CSS</h6>
+			<!--PARAGRAPH TAG-->
+			<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. </p>
+			<!--LIST TAGS-->
+			<!--ORDERD LIST TAG-->
+			<ol>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ol>
+			<!--UNORDERED LIST TAG-->
+			<ul>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ul>
+			<!--DEFINATION TAG-->
+			<dl>
+			    <dt><h2>CSS<h2></dt>
+				<dd>Cascading Style Sheets</dd>
+			</dl>
+			<!--IMAGE TAG-->
+			<pre>
+			
+			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png' alt=CSS LOGO>
+			</pre>
+			<!--ANCHOR TAG-->
+			<pre>
+			
+			<a href='https://en.wikipedia.org/wiki/CSS'><h2>CSS</h2></a>
+			
+			</pre>
+			<!--TABLE TAG-->
+			<table border=3>
+				   <tr>
+				       <th>COURSE</th>
+					   <th>DURATION</th>
+				   </tr>
+				   <tr>
+				       <td>HTML</td>
+					   <td>1 WEEK</td>
+				   </tr>
+				   <tr>
+				       <td>CSS</td>
+					   <td>10 DAYS</td>
+				   </tr>
+			</table>
+			<!--HEADING TAGS-->
+	        <h1>WELCOME TO JAVA SCRIPT</h1>
+			<h2>WELCOME TO JAVA SCRIPT</h2>
+			<h3>WELCOME TO JAVA SCRIPT</h3>
+			<h4>WELCOME TO JAVA SCRIPT</h4>
+			<!--PARAGRAPH TAG-->
+			<p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.</p>
+			<!--LIST TAGS-->
+			<!--ORDERD LIST TAG-->
+			<ol type='A'>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ol>
+			<!--UNORDERED LIST TAG-->
+			<ul type=square>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ul>
+			<!--DEFINATION TAG-->
+			<dl>
+			    <dt><h2>JS<h2></dt>
+				<dd>JAVA SCRIPT</dd>
+			</dl>
+			<!--IMAGE TAG-->
+			<pre>
+
+			
+			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png' alt=JS LOGO>
+			</pre>
+			<!--ANCHOR TAG-->
+			<pre>
+			
+			<a href='https://en.wikipedia.org/wiki/JavaScript'><h2>JS</h2></a>
+			
+			</pre>
+			<!--TABLE TAG-->
+			<table border=3>
+				   <tr>
+				       <th>ANIME</th>
+					   <th>HERO</th>
+				   </tr>
+				   <tr>
+				       <td>NARUTO</td>
+					   <td>NARUTO</td>
+				   </tr>
+				   <tr>
+				       <td>BLACK CLOVER</td>
+					   <td>ASTA</td>
+				   </tr>
+			</table>
+			<!--HEADING TAGS-->
+	        <h1>WELCOME TO MONGODB</h1>
+			<h2>WELCOME TO MONGODB</h2>
+			<h3>WELCOME TO MONGODB</h3>
+			<h4>WELCOME TO MONGODB</h4>
+			<!--PARAGRAPH TAG-->
+			<p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.</p>
+			<!--LIST TAGS-->
+			<!--ORDERD LIST TAG-->
+			<ol type='A'>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ol>
+			<!--UNORDERED LIST TAG-->
+			<ul type=square>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ul>
+			<!--DEFINATION TAG-->
+			<dl>
+			    <dt><h2>MongoDB<h2></dt>
+				<dd> source-available cross-platform document-oriented database program</dd>
+			</dl>
+			<!--IMAGE TAG-->
+			<pre>
+
+			
+			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/375px-MongoDB_Logo.svg.png' alt=MongoDB LOGO>
+			</pre>
+			<!--ANCHOR TAG-->
+			<pre>
+			
+			<a href='https://en.wikipedia.org/wiki/MongoDB'><h2>MongoDB</h2></a>
+			
+			</pre>
+			<!--TABLE TAG-->
+			<table border=3>
+				   <tr>
+				       <th>ANIME</th>
+					   <th>VILLAN</th>
+				   </tr>
+				   <tr>
+				       <td>NARUTO</td>
+					   <td>MADARA</td>
+				   </tr>
+				   <tr>
+				       <td>BLACK CLOVER</td>
+					   <td>DANTE</td>
+				   </tr>
+			</table>
+			 <!--HEADING TAGS-->
+	        <h1>WELCOME TO BOOTSTRAP</h1>
+			<h2>WELCOME TO BOOTSTRAP</h2>
+			<h3>WELCOME TO BOOTSTRAP</h3>
+			<h4>WELCOME TO BOOTSTRAP</h4>
+			<h5>WELCOME TO BOOTSTRAP</h5>
+			<h6>WELCOME TO BOOTSTRAP</h6>
+			<!--PARAGRAPH TAG-->
+			<p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+			<!--LIST TAGS-->
+			<!--ORDERD LIST TAG-->
+			<ol type='W'>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ol>
+			<!--UNORDERED LIST TAG-->
+			<ul type=circle>
+			    <li>HTML</li>
+				<li>CSS</li>
+				<li>JAVA SCRIPT</li>
+				<li>MONGODB</li>
+			</ul>
+			<!--DEFINATION TAG-->
+			<dl>
+			    <dt><h2>BOOTSTRAP<h2></dt>
+				<dd>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components</dd>
+			</dl>
+			<!--IMAGE TAG-->
+			<pre>
+			
+			
+			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/330px-Bootstrap_logo.svg.png' alt=BOOTSTRAP LOGO>
+			</pre>
+			<!--ANCHOR TAG-->
+			<pre>
+			
+			<a href='https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'><h2>BOOTSTRAP</h2></a>
+			
+			</pre>
+			<!--TABLE TAG-->
+			<table border=9>
+				   <tr>
+				       <th>ANIME</th>
+					   <th>MC'S FRIEND</th>
+				   </tr>
+				   <tr>
+				       <td>NARUTO</td>
+					   <td>SASUKE</td>
+				   </tr>
+				   <tr>
+				       <td>BLACK CLOVER</td>
+					   <td>YUNO</td>
+				   </tr>
+			</table>
+	  </body>
+</html>

@@ -1,0 +1,9 @@
+div+p{
+    color: aqua; background-color: burlywood;
+}
+div+h2{
+    color: cornflowerblue;background-color: crimson;
+}
+h2+h3{
+    color: rgb(179, 184, 184);background-color: darkgoldenrod;
+}

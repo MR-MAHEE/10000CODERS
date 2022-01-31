@@ -1,0 +1,248 @@
+body {
+    font-family: "Nunito",sans-serif;
+    margin: 0;
+}
+header{
+    padding-left: 80px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+.banner{
+    display: flex;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+    padding-left: 80px;
+}
+.banner img{
+    transform: scale(0.90);
+}
+h3{
+    font-weight: 700;
+    font-size: 22px;
+}
+h1{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.banner p{
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+button{
+    width: 220px;
+    height: 60px;
+    background-color: #ff6d00;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border-style: none;
+    margin-bottom: 10px;
+}
+.gridbox img{
+    transform: scale(0.33,0.33);
+    margin-bottom: -28px;
+}
+.gs{
+    text-align: center;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    font-weight: 700;
+    grid-column-gap: 40px;
+    color: #2F4744;
+    padding: 20px;
+    margin-top: -20px;
+}
+h2{
+    font-weight: 900;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+.gridbox+span{
+    color: #004BA8;
+    font-weight: 600;
+}
+span+p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.gridbox br+span{
+    padding-bottom: 60px;
+}
+.cs{
+    background-image: url(https://www.10000coders.co/assets/technologies.svg);
+    background-color: #EBF0F9 ;
+}
+.cs h2{
+    padding: 80px;
+    color: #052442;
+}
+.cs div{
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    line-height: 2.5;
+    margin-left: 160px;
+    position: relative;
+}
+ul{
+    list-style-type: armenian;
+}
+h4{
+    color: #004BA8;
+    padding: 20px;
+    font-size: larger;
+}
+.cs p{
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.cs section{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.founder{
+    text-align: center;
+}
+.fm{
+    display: flex;
+    text-align: left;
+}
+.fm img{
+    padding-left: 80px;
+    padding-right: 40px;
+}
+h4+span{
+    font-weight: bold;
+    color: #2F4744;
+    font-size: large;
+}
+.fm h4{
+    padding: 0px;
+    line-height: 0;
+}
+.fm p{
+    line-height: 2;
+    padding-right: 60px;
+}
+.fm+p{
+    padding-inline: 80px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    color: #2F4744;
+    font-weight: bold;
+    font-size: large;
+}
+.moving{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 200px;
+}
+.moving h2{
+    padding-top: 40px;
+}
+footer{
+    height: 200px;
+    line-height: 200px;
+    background-color:  #2F4744;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.wsa{
+    padding-top: 80px;
+}
+.wsa h1{
+    font-weight: bold;
+    text-align: center;
+}
+.wsa span{
+    background-color: #eaf9ec;
+    line-height: 3;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 280px;
+}
+.wsa p{
+    font-size: large;
+    font-weight: bold;
+    color: #2F4744;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.wsna h1{
+    font-weight: bold;
+    text-align: center;
+}
+.wsna span{
+    background-color: #f9eaec;
+    line-height: 3;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 280px;
+}
+.wsna{
+    padding-bottom: 100px;
+}
+.lm{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+}
+.lm br+span{
+    padding-bottom: 60px;
+}
+h3{
+    color: #2F4744;
+}
+.lm p{
+    font-size: 20px;
+    color: #2F4744;
+    padding-left: 20px;
+    padding-inline: 60px;
+    padding-top: 60px;
+}
+.cs h4+span{
+    position: absolute;
+    left: -84px;
+    top: 14px;
+    background-color: #004BA8;
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.lsf div{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 13px;
+    padding-inline: 7px;
+}
+.fb{
+    background-color: #4267B2;
+}
+.ms{
+    background-color: #448AFF;
+}
+.wa{
+    background-color:  #25d366;
+}
+.em{
+    background-color:  #7d7d7d;
+}
+.lsf{
+    position: fixed;
+    top: 33%;
+}
+.lsf img{
+    transform: scale(1.5);
+}
