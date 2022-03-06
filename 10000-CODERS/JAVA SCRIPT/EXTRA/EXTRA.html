@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXTRA</title>
+  </head>
+  <body>
+    <script>
+      //matrix 
+
+      let matrix = [];
+
+      for (let a = 0; a < 4; a++) {
+        matrix.push([]);
+      }
+
+      for (let i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+          if (matrix[0].length < 4) {
+            matrix[0].push(i);
+          }
+        } else {
+          if (matrix[1].length < 4) {
+            matrix[1].push(i);
+          }
+        }
+        let count = 0;
+        for (let j = 1; j <= i; j++) {
+          if (i % j == 0) {
+            count++;
+          }
+        }
+        if (count == 2) {
+          if (matrix[2].length < 4) {
+            matrix[2].push(i);
+          }
+        }
+        if (matrix[3].length < 4) {
+          matrix[3].push(i);
+        }
+      }
+      console.log(matrix);
+
+      // swaping
+
+      let a = 1;
+      let b = 2;
+      [a, b] = [b, a];
+      console.log([a, b]);
+
+      let c = 1;
+      let d = 2;
+      c = c + d;
+      d = c - d;
+      c = c - d;
+      console.log(c, d);
+
+      // linear search
+
+    //   let item = [2,3,5,7];
+
+    //   function linearSearch(matrix,item){
+    //       for(let i = 0; i < matrix.length; i++){
+    //           if(matrix[i] === item){
+    //               return i;
+    //           }
+    //       }
+    //       return null;
+    //   }
+    </script>
+  </body>
+</html>

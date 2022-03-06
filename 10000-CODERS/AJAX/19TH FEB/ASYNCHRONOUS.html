@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="ASYNCHRONOUS.css">
+</head>
+<body class="body">
+    <header>
+        <nav>
+            <ul>
+                <li class="home">HOME</li>
+                <li class="about">ABOUT US</li>
+                <li class="contact">CONTACT US</li>
+                <li class="placement">PLACEMENTS</li>
+            </ul>
+        </nav>
+    </header>
+    <main id="result">
+      <main class="container">
+        <div class="home-content">
+          <div>
+            <h1>HTML</h1>
+            <p>
+              The HyperText Markup Language, or HTML is the standard markup
+              language for documents designed to be displayed in a web browser. It
+              can be assisted by technologies such as Cascading Style Sheets and
+              scripting languages such as JavaScript.
+            </p>
+          </div>
+          <img
+            src="data:image/png;base64,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"
+            alt="HTML LOGO"
+            class="home-img"
+          />
+        </div>
+        <div class="home-content">
+          <div>
+            <h1>CSS</h1>
+            <p>
+              Cascading Style Sheets is a style sheet language used for describing
+              the presentation of a document written in a markup language such as
+              HTML. CSS is a cornerstone technology of the World Wide Web,
+              alongside HTML and JavaScript.
+            </p>
+          </div>
+          <img
+            src='data:image/png;base64,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'
+            alt="CSS LOGO"
+            class="home-img2"
+          />
+        </div>
+        <div class="home-content">
+          <div>
+            <h1>JS</h1>
+            <p>
+              JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries
+            </p>
+          </div>
+          <img
+            src="data:image/png;base64,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"
+            alt="JS LOGO"
+            class="home-img2"
+          />
+        </div>
+      </main>
+    </main>
+    <div class="modal">
+        <div class="modal-content">
+          <div class="modal-top">
+            <span class="close">&times;</span>
+            <div class="modal-top-content">
+              <h2 style="padding-top: 12px">
+                Ready to level up in your skills? Awesome!
+              </h2>
+              <p style="margin-top: -8px">
+                Attend our free 3-day online boot camp on trending web
+                technologies for B.Tech Graduates who are struggling to find a
+                well-paying IT job. And earn your spot for our job-guaranteed
+                program.
+              </p>
+            </div>
+          </div>
+          <div class="modal-registration">
+            <form action="#">
+            <p>
+              Select the start date of the boot camp that you would like to
+              attend. Our boot camp starts at 10AM
+            </p>
+            <input
+              type="radio"
+              name="start-date"
+              id="date1"
+              
+            />
+            <label for="date1">4th February 2022</label><br />
+            <input
+              type="radio"
+              name="start-date"
+              id="date2"
+              
+            />
+            <label for="date2">6th February 2022</label><br />
+            <input
+              type="radio"
+              name="start-date"
+              id="date3"
+              
+            />
+            <label for="date3">8th February 2022</label><br />
+            <input
+              type="radio"
+              name="start-date"
+              id="date4"
+              
+            />
+            <label for="date4">10th February 2022</label><br />
+            <p>Name</p>
+            <input
+              type="text"
+              name="name"
+              id="username"
+              
+              style="width: 35%"
+            />
+            <label for="name"></label>
+            <p id="usernameerr"></p>
+            <p class="italic">enter your full name</p>
+            <p>E-mail</p>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              
+              style="width: 35%"
+            />
+            <label for="email"></label>
+            <p id="emailerr"></p>
+            <p class="italic">
+              We prefer gmail. All future communication regarding bootcamp will
+              happen to this email.
+            </p>
+            <p>Phone</p>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              
+              style="width: 35%"
+            />
+            <label for="phone"></label>
+            <p id="phoneerr"></p>
+            <p>What is your highest degree of qualification?</p>
+            <p class="italic">
+              Please select option "other" if your degree is not listed
+            </p>
+            <input type="radio" name="degree" id="degree1" />
+            <label for="degree1">B.E/B.Tech</label><br />
+            <input type="radio" name="degree" id="degree2"  />
+            <label for="degree2">M.E/M.Tech</label><br />
+            <input type="radio" name="degree" id="degree3"  />
+            <label for="degree3">MCA</label><br />
+            <input type="radio" name="degree" id="degree4"  />
+            <label for="degree4">Other</label><br />
+            <input type="text" name="latestdegree" id="latestdegree"  />
+            <label for="latestdegree"></label>
+            <p class="italic">Your latest degree</p>
+            <p>Pass out year of your highest degree of qualification?</p>
+            <p class="italic">
+              Please select option "other" if your year is not listed
+            </p>
+            <input type="radio" name="year" id="year1"  />
+            <label for="year1">2019</label><br />
+            <input type="radio" name="year" id="year2"  />
+            <label for="year2">2018</label><br />
+            <input type="radio" name="year" id="year3"  />
+            <label for="year3">2017</label><br />
+            <input type="radio" name="year" id="year4"  />
+            <label for="year4">Others</label><br />
+            <input
+              type="number"
+              name="year"
+              id="year"
+              
+              style="width: 35%"
+            />
+            <label for="year"></label>
+            <p class="italic">
+              Year of graduation or expected year of graduation if you are still
+              pursuing
+            </p>
+            <p>
+              Which of the following best describes your programming experience?
+            </p>
+            <input type="radio" name="exp" id="exp1"  />
+            <label for="exp1"> I do not have prior programming experience</label
+            ><br />
+            <input type="radio" name="exp" id="exp2"  />
+            <label for="exp2">
+              Beginner: I learned to code but am not good at writing code</label
+            ><br />
+            <input type="radio" name="exp" id="exp3"  />
+            <label for="exp3"> Intermediate: I can write basic code</label><br />
+            <input type="radio" name="exp" id="exp4"  />
+            <label for="exp4">
+              Advanced: I can create simple applications writing code</label
+            ><br />
+            <p class="italic">Your programming expertise</p>
+            <p>
+              Why do you want to join this program?<br />
+              ( please do not use special characters or symbols.)
+            </p>
+            <input type="text" name="why" id="why"  style="width: 35%" />
+            <label for="why"></label>
+            <p class="italic">
+              Briefly explain what you expect from this program and how much time
+              can you dedicate for this program. Remember, this is not a
+              ‘sit-back-watch-and-forget online bootcamp. You need to do the heavy
+              lifting to get results.
+            </p>
+          </div>
+          <div class="modal-bottom">
+            <button class="btn-bottom" type="submit" >REGISTER HERE</button><br />
+            <p>Thank you for visiting us</p>
+          </form>
+          </div>
+        </div>
+      </div>
+    <footer>
+        <p>FOOTER</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="ASYNCHRONOUS.js"></script>
+</body>
+</html>

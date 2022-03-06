@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function powerTesting(number) {
+        for (let i = 1; i < number; i++) {
+          if (number == 2 ** i) {
+            alert(number + " is a power of 2");
+          }
+        }
+      }
+      function inputNumber(callback) {
+        var num = prompt("enter a number to check if its a power of 2");
+        callback(num);
+      }
+      inputNumber(powerTesting);
+
+
+      //program to calculate factorial
+
+      function factorialNumber(x) {
+        let factorial = 1;
+        for (i = 1; i <= x; i++) {
+          factorial *= i;
+        }
+        console.log(factorial);
+      }
+      factorialNumber(4);
+
+      const isPowerOfTwo = num => {
+            if (num === 1) {
+                return true;
+            };
+            if (num % 2 !== 0) {
+                return false;
+            }
+            return isPowerOfTwo(num / 2);
+        }
+        console.log(isPowerOfTwo(3))
+
+      //
+    </script>
+  </body>
+</html>

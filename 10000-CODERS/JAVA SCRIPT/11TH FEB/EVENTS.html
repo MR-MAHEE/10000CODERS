@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="EVENTS.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700,900"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="time"></p>
+    <p class="date"></p>
+    <img src="" alt="nature" id="nature">
+    <button class="button">CLICK ME!</button>
+
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-top">
+          <span class="close">&times;</span>
+          <div class="modal-top-content">
+            <h2 style="padding-top: 12px">
+              Ready to level up in your skills? Awesome!
+            </h2>
+            <p style="margin-top: -8px">
+              Attend our free 3-day online boot camp on trending web
+              technologies for B.Tech Graduates who are struggling to find a
+              well-paying IT job. And earn your spot for our job-guaranteed
+              program.
+            </p>
+          </div>
+        </div>
+        <div class="modal-registration">
+          <form action="#">
+          <p>
+            Select the start date of the boot camp that you would like to
+            attend. Our boot camp starts at 10AM
+          </p>
+          <input
+            type="radio"
+            name="start-date"
+            id="date1"
+            
+          />
+          <label for="date1">4th February 2022</label><br />
+          <input
+            type="radio"
+            name="start-date"
+            id="date2"
+            
+          />
+          <label for="date2">6th February 2022</label><br />
+          <input
+            type="radio"
+            name="start-date"
+            id="date3"
+            
+          />
+          <label for="date3">8th February 2022</label><br />
+          <input
+            type="radio"
+            name="start-date"
+            id="date4"
+            
+          />
+          <label for="date4">10th February 2022</label><br />
+          <p>Name</p>
+          <input
+            type="text"
+            name="name"
+            id="username"
+            
+            style="width: 35%"
+          />
+          <label for="name"></label>
+          <p id="usernameerr"></p>
+          <p class="italic">enter your full name</p>
+          <p>E-mail</p>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            
+            style="width: 35%"
+          />
+          <label for="email"></label>
+          <p id="emailerr"></p>
+          <p class="italic">
+            We prefer gmail. All future communication regarding bootcamp will
+            happen to this email.
+          </p>
+          <p>Phone</p>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            
+            style="width: 35%"
+          />
+          <label for="phone"></label>
+          <p id="phoneerr"></p>
+          <p>What is your highest degree of qualification?</p>
+          <p class="italic">
+            Please select option "other" if your degree is not listed
+          </p>
+          <input type="radio" name="degree" id="degree1" />
+          <label for="degree1">B.E/B.Tech</label><br />
+          <input type="radio" name="degree" id="degree2"  />
+          <label for="degree2">M.E/M.Tech</label><br />
+          <input type="radio" name="degree" id="degree3"  />
+          <label for="degree3">MCA</label><br />
+          <input type="radio" name="degree" id="degree4"  />
+          <label for="degree4">Other</label><br />
+          <input type="text" name="latestdegree" id="latestdegree"  />
+          <label for="latestdegree"></label>
+          <p class="italic">Your latest degree</p>
+          <p>Pass out year of your highest degree of qualification?</p>
+          <p class="italic">
+            Please select option "other" if your year is not listed
+          </p>
+          <input type="radio" name="year" id="year1"  />
+          <label for="year1">2019</label><br />
+          <input type="radio" name="year" id="year2"  />
+          <label for="year2">2018</label><br />
+          <input type="radio" name="year" id="year3"  />
+          <label for="year3">2017</label><br />
+          <input type="radio" name="year" id="year4"  />
+          <label for="year4">Others</label><br />
+          <input
+            type="number"
+            name="year"
+            id="year"
+            
+            style="width: 35%"
+          />
+          <label for="year"></label>
+          <p class="italic">
+            Year of graduation or expected year of graduation if you are still
+            pursuing
+          </p>
+          <p>
+            Which of the following best describes your programming experience?
+          </p>
+          <input type="radio" name="exp" id="exp1"  />
+          <label for="exp1"> I do not have prior programming experience</label
+          ><br />
+          <input type="radio" name="exp" id="exp2"  />
+          <label for="exp2">
+            Beginner: I learned to code but am not good at writing code</label
+          ><br />
+          <input type="radio" name="exp" id="exp3"  />
+          <label for="exp3"> Intermediate: I can write basic code</label><br />
+          <input type="radio" name="exp" id="exp4"  />
+          <label for="exp4">
+            Advanced: I can create simple applications writing code</label
+          ><br />
+          <p class="italic">Your programming expertise</p>
+          <p>
+            Why do you want to join this program?<br />
+            ( please do not use special characters or symbols.)
+          </p>
+          <input type="text" name="why" id="why"  style="width: 35%" />
+          <label for="why"></label>
+          <p class="italic">
+            Briefly explain what you expect from this program and how much time
+            can you dedicate for this program. Remember, this is not a
+            ‘sit-back-watch-and-forget online bootcamp. You need to do the heavy
+            lifting to get results.
+          </p>
+        </div>
+        <div class="modal-bottom">
+          <button class="btn-bottom" type="submit" >REGISTER HERE</button><br />
+          <p>Thank you for visiting us</p>
+        </form>
+        </div>
+      </div>
+    </div>
+    
+    <script src="EVENTS.js"></script>
+  </body>
+</html>

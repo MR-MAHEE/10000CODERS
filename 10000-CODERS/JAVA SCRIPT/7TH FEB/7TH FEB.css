@@ -1,0 +1,6 @@
+th,tr,td{
+    border: 2px solid;
+    font-size: smaller;
+    text-align: center;
+    /* padding: 8px 20px; */
+}

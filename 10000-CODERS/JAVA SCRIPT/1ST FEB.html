@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DATATYPES AND OPERATORS</title>
+</head>
+<body>
+    <script>
+
+        //arthematic operatior
+
+        console.log(2+4)
+        console.log(4-2)
+        console.log(2*4)
+        console.log(4/2)
+        console.log(2**4)
+        console.log(8%6)
+        
+        //assignment operator
+
+        var add = 20;
+        add = add+40;
+        console.log(add)
+        console.log(add+=60)
+
+        var sub = 2000;
+        sub = sub-40;
+        console.log(sub)
+        console.log(sub-=60)
+
+        var mul = 20;
+        mul = mul*40;
+        console.log(mul)
+        console.log(mul*=60)
+
+        var div = 20;
+        div = div/40;
+        console.log(div)
+        console.log(div/60)
+
+        var mod = 2002;
+        mod = mod%40;
+        console.log(mod)
+        console.log(mod%=2)
+
+        var exp = 20;
+        exp = exp**40;
+        console.log(exp)
+        console.log(exp**60)
+
+        //datatypeof
+
+        var strng = '2468';
+        console.log(typeof strng)
+        var numbr = 2468;
+        console.log(typeof numbr)
+        var nul = null;
+        console.log(typeof nul)
+        var ud ;
+        console.log(typeof ud)
+        var es = '';
+        console.log(typeof es)
+        var bolean = true;
+        console.log(typeof bolean)
+        const ary = [2,4,6,8];
+        console.log(typeof ary)
+        var obj = {
+            name : 'js',
+            launchDate : 1995
+        }
+        console.log(typeof obj)
+        const bi = 1.099511627776e+52;
+        console.log(typeof bi)
+
+        //conditional operators
+
+        console.log(8 > 8)
+        console.log(8 >= 8)
+        console.log(8 <= 8)
+        console.log(8 < 8)
+        console.log('8' == 8)
+        console.log('8' === 8)
+        console.log('true' == true)
+        console.log('true' === true)
+        console.log(true == 1)
+        console.log(true === 1)
+        console.log(false == 1)
+        console.log(false == 0)
+        console.log(false === 0)
+
+        //logical operators
+
+        var userName = 'mahesh';
+        var password = 24680;
+        console.log(userName === 'mahesh' && password === 24680)
+        console.log(userName === 'Mahesh' && password === 24680)
+        console.log(userName === 'mahesh' || password === 24680)
+        console.log(userName === 'Mahesh' || password === 24680)
+        //doubt
+        console.log(!userName === 'mahesh')
+        console.log(!(userName === 2))
+        console.log(!password === 24680)
+        console.log(!password === 22222)
+
+        var t1 = false;
+        console.log(!t1)
+
+        var t2 = 0;
+        console.log(!t2)
+
+        var t3 = null;
+        console.log(!t3)
+
+        var t4;
+        console.log(!t4)
+
+        var t5 = '';
+        console.log(!t5)
+        
+        var t6 = 'anything except a falsy value';
+        console.log(!t6)
+
+    </script>
+</body>
+</html>

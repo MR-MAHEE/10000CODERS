@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES6 CONCEPTS</title>
+  </head>
+  <body>
+    <script>
+      //es6 concepts
+
+      //arrow function
+
+      const func = () => {
+        console.log("this is a arrow function");
+      };
+      func();
+
+      const func2 = (a, b) => {
+        console.log(a, b);
+      };
+      func2(2, 4);
+
+      const func3 = (a, b) => console.log(a, b);
+      func2(0, 8);
+
+      //advanced array methods
+
+      //for each
+      //it is an array method which calls the function everytime
+
+      const ary = [1, 2, 3, 4, 5, 6];
+
+      ary.forEach((e) => {
+        console.log(e);
+      });
+
+      const output = (e) => (document.body.innerHTML += `${e}<br/>`);
+
+      let numberArray = [1, 2, 3, 4, 5];
+
+      let returnValue = numberArray.forEach((num) =>
+        output(`${num} x ${num} = ${num * num}`)
+      );
+
+      output(numberArray);
+      output(returnValue);
+      console.log(numberArray);
+      console.log(returnValue);
+
+      //map
+
+      ary.map((e) => {
+        console.log(e);
+      });
+
+      const output2 = (string) => (document.body.innerHTML += `${string}<br/>`);
+
+      let numberArray2 = [1, 2, 3, 4, 5];
+
+      let returnValue2 = numberArray2.map((num) => num * num);
+
+      output2(numberArray2);
+      output2(returnValue2);
+      console.log(numberArray2);
+      console.log(returnValue2);
+
+      //filter
+
+      ary.filter((e) => {
+        if (e % 2 == 0) {
+          console.log(e);
+        }
+      });
+
+      let users = [
+        {
+          id: 1,
+          name: "Leanne Graham",
+          username: "Bret",
+          email: "Sincere@april.biz",
+          address: {
+            street: "Kulas Light",
+            suite: "Apt. 556",
+            city: "Gwenborough",
+            zipcode: "92998-3874",
+            geo: {
+              lat: "-37.3159",
+              lng: "81.1496",
+            },
+          },
+          phone: "1-770-736-8031 x56442",
+          website: "hildegard.org",
+          company: {
+            name: "Romaguera-Crona",
+            catchPhrase: "Multi-layered client-server neural-net",
+            bs: "harness real-time e-markets",
+          },
+        },
+        {
+          id: 2,
+          name: "Ervin Howell",
+          username: "Antonette",
+          email: "Shanna@melissa.tv",
+          address: {
+            street: "Victor Plains",
+            suite: "Suite 879",
+            city: "Wisokyburgh",
+            zipcode: "90566-7771",
+            geo: {
+              lat: "-43.9509",
+              lng: "-34.4618",
+            },
+          },
+          phone: "010-692-6593 x09125",
+          website: "anastasia.net",
+          company: {
+            name: "Deckow-Crist",
+            catchPhrase: "Proactive didactic contingency",
+            bs: "synergize scalable supply-chains",
+          },
+        },
+        {
+          id: 3,
+          name: "Clementine Bauch",
+          username: "Samantha",
+          email: "Nathan@yesenia.net",
+          address: {
+            street: "Douglas Extension",
+            suite: "Suite 847",
+            city: "McKenziehaven",
+            zipcode: "59590-4157",
+            geo: {
+              lat: "-68.6102",
+              lng: "-47.0653",
+            },
+          },
+          phone: "1-463-123-4447",
+          website: "ramiro.info",
+          company: {
+            name: "Romaguera-Jacobson",
+            catchPhrase: "Face to face bifurcated interface",
+            bs: "e-enable strategic applications",
+          },
+        },
+        {
+          id: 4,
+          name: "Patricia Lebsack",
+          username: "Karianne",
+          email: "Julianne.OConner@kory.org",
+          address: {
+            street: "Hoeger Mall",
+            suite: "Apt. 692",
+            city: "South Elvis",
+            zipcode: "53919-4257",
+            geo: {
+              lat: "29.4572",
+              lng: "-164.2990",
+            },
+          },
+          phone: "493-170-9623 x156",
+          website: "kale.biz",
+          company: {
+            name: "Robel-Corkery",
+            catchPhrase: "Multi-tiered zero tolerance productivity",
+            bs: "transition cutting-edge web services",
+          },
+        },
+        {
+          id: 5,
+          name: "Chelsey Dietrich",
+          username: "Kamren",
+          email: "Lucio_Hettinger@annie.ca",
+          address: {
+            street: "Skiles Walks",
+            suite: "Suite 351",
+            city: "Roscoeview",
+            zipcode: "33263",
+            geo: {
+              lat: "-31.8129",
+              lng: "62.5342",
+            },
+          },
+          phone: "(254)954-1289",
+          website: "demarco.info",
+          company: {
+            name: "Keebler LLC",
+            catchPhrase: "User-centric fault-tolerant solution",
+            bs: "revolutionize end-to-end systems",
+          },
+        },
+        {
+          id: 6,
+          name: "Mrs. Dennis Schulist",
+          username: "Leopoldo_Corkery",
+          email: "Karley_Dach@jasper.info",
+          address: {
+            street: "Norberto Crossing",
+            suite: "Apt. 950",
+            city: "South Christy",
+            zipcode: "23505-1337",
+            geo: {
+              lat: "-71.4197",
+              lng: "71.7478",
+            },
+          },
+          phone: "1-477-935-8478 x6430",
+          website: "ola.org",
+          company: {
+            name: "Considine-Lockman",
+            catchPhrase: "Synchronised bottom-line interface",
+            bs: "e-enable innovative applications",
+          },
+        },
+        {
+          id: 7,
+          name: "Kurtis Weissnat",
+          username: "Elwyn.Skiles",
+          email: "Telly.Hoeger@billy.biz",
+          address: {
+            street: "Rex Trail",
+            suite: "Suite 280",
+            city: "Howemouth",
+            zipcode: "58804-1099",
+            geo: {
+              lat: "24.8918",
+              lng: "21.8984",
+            },
+          },
+          phone: "210.067.6132",
+          website: "elvis.io",
+          company: {
+            name: "Johns Group",
+            catchPhrase: "Configurable multimedia task-force",
+            bs: "generate enterprise e-tailers",
+          },
+        },
+        {
+          id: 8,
+          name: "Nicholas Runolfsdottir V",
+          username: "Maxime_Nienow",
+          email: "Sherwood@rosamond.me",
+          address: {
+            street: "Ellsworth Summit",
+            suite: "Suite 729",
+            city: "Aliyaview",
+            zipcode: "45169",
+            geo: {
+              lat: "-14.3990",
+              lng: "-120.7677",
+            },
+          },
+          phone: "586.493.6943 x140",
+          website: "jacynthe.com",
+          company: {
+            name: "Abernathy Group",
+            catchPhrase: "Implemented secondary concept",
+            bs: "e-enable extensible e-tailers",
+          },
+        },
+        {
+          id: 9,
+          name: "Glenna Reichert",
+          username: "Delphine",
+          email: "Chaim_McDermott@dana.io",
+          address: {
+            street: "Dayna Park",
+            suite: "Suite 449",
+            city: "Bartholomebury",
+            zipcode: "76495-3109",
+            geo: {
+              lat: "24.6463",
+              lng: "-168.8889",
+            },
+          },
+          phone: "(775)976-6794 x41206",
+          website: "conrad.com",
+          company: {
+            name: "Yost and Sons",
+            catchPhrase: "Switchable contextually-based project",
+            bs: "aggregate real-time technologies",
+          },
+        },
+        {
+          id: 10,
+          name: "Clementina DuBuque",
+          username: "Moriah.Stanton",
+          email: "Rey.Padberg@karina.biz",
+          address: {
+            street: "Kattie Turnpike",
+            suite: "Suite 198",
+            city: "Lebsackbury",
+            zipcode: "31428-2261",
+            geo: {
+              lat: "-38.2386",
+              lng: "57.2232",
+            },
+          },
+          phone: "024-648-3804",
+          website: "ambrose.net",
+          company: {
+            name: "Hoeger LLC",
+            catchPhrase: "Centralized empowering task-force",
+            bs: "target end-to-end models",
+          },
+        },
+      ];
+
+      users.filter((users) => {
+        if (users.id < 8 && users.id > 4) {
+          console.log(users);
+        }
+      });
+
+      users.filter((users) => {
+        if (users.id < 8 && users.id > 4) {
+          if (users.id % 2 == 0) {
+            console.log(users);
+          }
+        }
+      });
+
+      const filteredUsers = users.filter((e) => e.id < 3);
+      console.log(filteredUsers);
+
+      //fill
+
+      const arr = new Array(6);
+      arr.fill("test");
+      console.log(arr);
+
+      const aryy = new Array(6);
+      console.log(aryy.fill("test", 2));
+      console.log(aryy.fill(0, 0, 2));
+
+      const array1 = [1, 2, 3, 4];
+      console.log(array1.fill(0, 2, 4));
+      console.log(array1.fill(5, 1));
+      console.log(array1.fill(6));
+      console.log(array1.fill("yo", 2));
+
+      //   const arry = new Array(6);
+      //   arry.fill("test","t2","t3","t4","t5","t6");
+      //   console.log(arry);
+
+      //template literal
+
+      firstName = "Mr";
+      lastName = "Musk";
+
+      console.log(`${firstName} Name ${lastName}`);
+
+      //for in
+
+      console.log(users["id"]);
+
+      for (let value in users[0]) {
+        console.log(value);
+      }
+
+      for (let value in users[0]) {
+        console.log(users[0][value]);
+      }
+
+      let user1 = {
+        id: 1,
+        name: "Leanne Graham",
+        username: "Bret",
+        email: "Sincere@april.biz",
+        address: {
+          street: "Kulas Light",
+          suite: "Apt. 556",
+          city: "Gwenborough",
+          zipcode: "92998-3874",
+          geo: {
+            lat: "-37.3159",
+            lng: "81.1496",
+          },
+        },
+        phone: "1-770-736-8031 x56442",
+        website: "hildegard.org",
+        company: {
+          name: "Romaguera-Crona",
+          catchPhrase: "Multi-layered client-server neural-net",
+          bs: "harness real-time e-markets",
+        },
+      };
+
+      for (let value in user1) {
+        console.log(value);
+      }
+
+      for (let value in user1) {
+        console.log(user1[value]);
+      }
+
+      for (let e in user1) {
+        console.log(e);
+      }
+
+      for (let value in user1) {
+        console.log(`user ${value} is ${user1[value]}`);
+      }
+
+      for (let e in user1) {
+        console.log(`user ${e} is ${user1[e]}`);
+      }
+
+      //for of
+
+      for (let value of ary) {
+        console.log(value);
+      }
+
+      for (let e of ary) {
+        console.log(e);
+      }
+
+      //deconstructing
+
+      //array deconstructing
+
+      const [a, b, c, , , g] = ary;
+
+      console.log(a, g);
+
+      const [x, y, , , , , , , , z] = users;
+      console.log(x, z);
+
+      //object deconstructing
+
+      const { id, name } = users[1];
+      console.log(id, name);
+
+      const {
+        address: { city },
+      } = user1;
+      console.log(city);
+
+      const {
+        address: {
+          geo: { lat, lng },
+        },
+      } = user1;
+      console.log("lattitude : " + lat, "," + " longitude : " + lng);
+
+      //optional chaining
+
+      console.log(
+        user1?.address?.geo?.lat ? user1.address.geo.lat : "data not found"
+      );
+
+      console.log(user1?.company?.name ? user1.company.name : "data not found");
+
+      console.log(user1?.id ? user1.id : "data not found");
+    </script>
+  </body>
+</html>

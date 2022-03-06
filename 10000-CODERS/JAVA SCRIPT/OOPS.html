@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOPS</title>
+</head>
+<body>
+    <script>
+        // let firstName = 'raj';
+        // function myFunc(){
+        //     console.log(this);
+        //     console.log(firstName);
+        // }
+        // myFunc();
+
+        // //object literal
+
+        // const obj = {
+        //     firstName : 'ram',
+        //     lastName : 'raj',
+        //     hobbies : ['coding','music','movies'],
+        //     showFirstName (){
+        //         this.hobbies.forEach(function(hobbies){
+        //             console.log(hobbies,this.firstName,this);
+        //         },this)
+        //     },
+        //     showFirstName2 (){
+        //         this.hobbies.forEach(function(hobbies){
+        //             console.log(hobbies,this.firstName,this);
+        //         })
+        //     },
+        //     showFirstNameArrow (){
+        //         this.hobbies.forEach((hobbies) => {
+        //             console.log(hobbies,this.firstName,this);
+        //         })
+        //     }
+        // }
+        // obj.showFirstName();
+        // obj.showFirstName2();
+        // obj.showFirstNameArrow();
+
+        // //function constructor
+
+        // function User(firstName,lastName,email){
+        //     this.firstName = firstName;
+        //     this.lastName = lastName;
+        //     this.email = email;
+        //     this.getUserData = function(){
+        //         console.log(`name is ${firstName} and email is ${email}`);
+        //     }
+        // }
+        // const user = new User('ram','raj','ramraj@gmail.com');
+        // user.getUserData();
+        // console.log(user);
+        // console.log(User);
+        // const user2 = new User('raja','ram','rajaram@gmail.com');
+        // user2.getUserData();
+
+        // function U(firstName,lastName,email){
+        //     // this.firstName = firstName;
+        //     // this.lastName = lastName;
+        //     // this.email = email;
+        //     getUserData = function(){
+        //         console.log(`name is ${firstName} ${lastName} and email is ${email}`);
+        //     }
+        // }
+        // const user3 = new U('ram','raj','ramraj@gmail.com');
+        // this.getUserData();
+        // console.log(user3);
+        // console.log(U);
+        // const user4 = new U('raja','ram','rajaram@gmail.com');
+        // this.getUserData();
+
+        //oops
+        //object oriented programming language
+        //using objects we will write the program
+
+        //javascript is procedure oriented programming language
+        //using functions we will write the program
+
+        //4 major principles
+
+        //encapsulation
+        //grouping the properties and methods into a single unit
+
+        //abstraction
+        //hiding the implementaion and showing the functionality
+
+        //inheritance (code reusability)
+        //acruaring the properties and methods  from parent class to child class
+
+        //polymorphism
+        //poly - many
+        //morphism - forms
+
+        class User{
+            //properties
+            // userName = '';
+            // password = '';
+            // email = '';
+            // phone = '';
+
+            //constructor
+            //it is a special member function which is invoked when an object is created
+            //it is used to inject values into the object
+            constructor(userName,password,email,phone){
+                this.userName = userName;
+                this.password = password
+                this.email = email;
+                this.phone = phone;
+            }
+            // getInfo(){
+            //     console.log(`name is ${this.name}  and email is ${this.email} `);
+            // }
+            login(userName,password){
+                if(this.userName == userName && this.password == password){
+                    console.log(`${this.userName} has logged in successfully`)
+                }else console.log('worong username or password');
+            }
+        }
+        //instance 
+        //the process of creating an instance of a class is called instantiation
+
+        const user1 = new User('mahesh',8000,'mahesh@gamil.com',00000000);
+        // user1.getInfo();
+        console.log(user1);
+        user1.login('mahesh',8000);
+
+        class Admin extends User{
+            key = '';
+            constructor(userName,password,email,phone,key){
+                super(userName,password,email,phone)//super keyword calls the parent constructor
+                this.key = key;
+            }
+            login(userName,password,key){
+                if(this.userName == userName && this.password == password && this.key == key){
+                    console.log(`${this.userName} has logged in successfully from child`)
+                }else console.log('worong username or password');
+            }
+        }
+        const admin1 = new Admin('ram',8888,'ram@gamil.com',80000000,1234);
+        admin1.login('ram',8888,1234);
+
+        //abstraction
+        //hiding the implementaion and showing the functionality
+
+        function Employee(name,age,salary){
+            this.name = name;
+            this.age = age;
+            this.salary = salary;
+            let bonus = 8000;
+            this.getInfo = function(){
+                console.log(`name is ${name}, age is ${age} and salary id ${salary}`)
+            }
+            this.finalSalary = function(){
+                finalSalary = this.salary + this.bonus;
+                console.log(finalSalary);
+            }
+        }
+        const employee1 = new Employee('ram',22,40000);
+        employee1.getInfo();
+        employee1.bonus = 20000;
+        employee1.finalSalary();
+
+
+    </script>
+</body>
+</html>

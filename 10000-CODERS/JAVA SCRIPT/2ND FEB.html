@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // conditional statements
+
+      let score = 160;
+      if (score < 120) {
+        console.log("score is low");
+      } else if (score >= 120 && score <= 160) {
+        console.log("score is moderate");
+      } else if (score > 160 && score <= 200) {
+        console.log("score is high");
+      } else {
+        console.log("score is too high");
+      }
+
+      let price = 80000;
+      if (price < 14000) {
+        console.log("budget");
+      } else if (price >= 14000 && price <= 22000) {
+        console.log("lower mid range");
+      } else if (price > 22000 && price < 30000) {
+        console.log("midrange");
+      } else if (price >= 30000 && price <= 40000) {
+        console.log("upper midrange");
+      } else {
+        console.log("flagship");
+      }
+
+      //give days, find months with given days
+      
+      let days = 29;
+      if (days == 30){
+        console.log('April, June, September, and November.')
+      } else if (days == 31){
+        console.log('January, March, May, July, August, October, and December.')
+      } else if (days == 28 || days == 29) {
+        console.log('February');
+        if(days == 28){
+          console.log('Not a leap year')
+        } else{
+          console.log('A leap year')
+        }
+      } else {
+        console.log('Not a month')
+      }
+
+      // ternary operations
+
+      let a = 8;
+      let b = 2;
+      a > b ? console.log("a is greater") : console.log("b is greater");
+      false ? console.log("it is true") : console.log("it is false");
+
+      let c = a + b;
+      let d = a * b;
+      c > d ? console.log("c is greater") : console.log("d is greater");
+
+      //switch statement
+
+      let phone = "android";
+      switch (phone) {
+        case "iphone":
+          console.log("its very smooth, but very restrictive");
+          break;
+        case "android":
+          console.log("its featutre rich and very customizable");
+          break;
+        case "featute":
+          console.log("its just a basic phone");
+          break;
+        default :
+          console.log('its a phone');
+      }
+
+      // loops and iterations
+
+      //for loop
+
+      for (let i = 0; i <= 8; i++) {
+        console.log(i);
+      }
+
+      //for loop to print even numbers
+
+      for (let even = 1; even <= 20; even++) {
+        if (even % 2 === 0) {
+          console.log(even);
+        }
+      }
+
+      //for loop to print odd numbers
+
+      for (let odd = 1; odd <= 20; odd++) {
+        if (odd % 2 === 1) {
+          console.log(odd);
+        }
+      }
+
+      //for loop to print prime numbers
+
+      // for (let prime=1; prime <= 20; prime++){
+      //     if(prime/1 == prime){
+      //         if(prime/prime == 1){
+      //           console.log(prime);
+      //         }
+      //     }
+      // }
+
+      //while loop
+
+      let number = 2;
+      while (number < 20) {
+        console.log(number);
+        number++;
+      }
+
+      //printing even numbers using while
+
+      let evenNumber = 1;
+      while (evenNumber < 20) {
+        if (evenNumber % 2 == 0) {
+          console.log(evenNumber);
+        }
+        evenNumber++;
+      }
+
+      //printing odd numbers using using while
+
+      let oddNumber = 0;
+      while (oddNumber < 20) {
+        oddNumber++;
+        if (oddNumber % 2 == 1) {
+          console.log(oddNumber);
+        }
+      }
+
+      let m = 2;
+      let n = 4;
+      let o = 6;
+      while (m <= 6) {
+        n *= m;
+        o += n;
+        console.log(o);
+        m++;
+      }
+
+      //do while loop
+
+      let test = 2;
+      do {
+        if (test % 5 == 0) {
+          console.log(test);
+        }
+        test++;
+      } while (test <= 40);
+      
+
+      let test2 = 0;
+      do{
+        test2++;
+        if(test2 % 2 == 0){
+          if(test2 % 3 == 0){
+            console.log(test2)
+          }
+        }
+      }while (test2 <= 80)
+    </script>
+  </body>
+</html>

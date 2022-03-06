@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        //array and array methods
+
+        //length
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        console.log(apps);
+        console.log(apps.length);
+        console.log(apps.length-3);
+        console.log(apps[apps.length-7]);
+        console.log(apps[apps.length-4].length);
+
+        for(let i = 0; i < apps.length; i++){
+            if(i%2 == 0){
+                console.log(apps[i]);
+            }
+        }
+
+        //push
+
+        apps.push('whatsapp');
+        console.log(apps);
+        apps.push('skype','snapchat');
+        console.log(apps)
+
+        //pop
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord','whatsapp','skype','snapchat'];
+        apps.pop();
+        console.log(apps);
+
+        for(i = 0; i > 4; i++){
+            apps.pop();
+        }
+        console.log(apps);
+        
+
+        //unshift
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord','whatsapp'];
+        apps.unshift('signal');
+        console.log(apps);
+        apps.shift();
+        console.log(apps);
+
+        //slice
+
+        apps.slice();
+        console.log(apps)
+
+        apps.slice(0,4);
+        console.log(apps)
+
+        appsSlice = apps.slice();
+        console.log(appsSlice);
+
+        appsSlice = apps.slice(0);
+        console.log(appsSlice);
+
+        appsSlice = apps.slice(2);
+        console.log(appsSlice);
+
+        appsSlice = apps.slice(4);
+        console.log(appsSlice);
+
+        appsSlice = apps.slice(0,4);
+        console.log(appsSlice);
+
+        appsSlice = apps.slice(2,8);
+        console.log(appsSlice);
+
+        for(let a = 0, b = 2; a < 6; a++,b++){
+           if(a%2 == 0,b%2 == 0){
+            appsSlice = apps.slice(a,b);
+            console.log(appsSlice);
+           }
+        }
+        
+        //splice
+        
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice();
+        console.log(apps);
+
+        apps.splice(0);
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(2);
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(5);
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(4,2);
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(0,4);
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(2,0,'skype','snapchat');
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        apps.splice(2,4,'skype','snapchat');
+        console.log(apps);
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord'];
+        for(x = 1; x < 20; x++){
+            if(x%2 == 1){
+                apps.splice(x,0,'odd');
+                
+            }
+        }
+        console.log(apps);
+
+        //include
+
+        var apps = ['telegram','instagram','twitter','facebook','messenger','hangouts','discord','twitter','telegram'];
+        console.log(apps.includes('hangouts'));
+        console.log(apps.includes('Hangouts'));
+        console.log(apps.includes('twitter',3));
+        console.log(apps.includes('twitter',8));
+
+        //indexOf
+
+        console.log(apps.indexOf('twitter'));
+        console.log(apps.indexOf('telegram'));
+        console.log(apps.indexOf('whatsapp'));
+
+        //lastIndexOf
+
+        console.log(apps.lastIndexOf('twitter'));
+        console.log(apps.lastIndexOf('telegram'));
+
+        //reverse
+
+        console.log(apps.reverse());
+
+        //join
+
+        console.log(apps.join());
+        console.log(apps.join(''));
+        console.log(apps.join('/'));
+        console.log(apps.join(0));
+        console.log(apps.join('$'));
+        console.log(apps.join('@'));
+
+        //toString
+
+        console.log(apps.toString());
+
+        //sort
+
+        console.log(apps.sort());
+
+        let numbers = [9, 82, 200, 100000, 34]
+        console.log(numbers.sort());
+
+        //concat
+
+        let add = apps.concat(appsSlice);
+        console.log(add);
+
+        let sum = apps.concat(appsSlice,add,numbers);
+        console.log(sum);
+
+
+        //to display prime numbers
+
+        let prime = [];
+        for(let i = 1;i < 80;i++){
+            let count = 0;
+            for(let j = 1; j < 80, j <= i; j++){
+                if(i%j == 0){
+                    count++;
+                }
+            }
+        } if(count == 2){
+                prime.push(i);
+            }
+        console.log(prime);
+
+        //to check if a number is prime
+
+        
+        while(n = 2){
+            let count = 0;
+            for(let j = 1; j <= n; j++){
+                if(n%j==0){
+                    count++;
+                }
+            }
+            if(count == 2){
+                console.log('this is a prime number')
+            }else{
+                console.log('this is not a prime number')
+            }break;
+        }
+        
+        //finding factorial value
+
+        let z = 6;
+        let f = 1;
+        for(i = 1; i <= z; i++){
+            f *= i;
+        }
+        console.log(f);
+
+        //negative even values
+
+        let ary =[];
+        for(i = 0; i >= -20; i--){
+            if(i%2 == 0){
+                ary.push(i);
+            }
+        }
+        console.log(ary);
+
+        //pattern
+
+        for(let i = 1; i < 6; i++){
+            for(let j = 1; j <= i; j++){
+                console.log(j)
+            }
+        }
+
+    </script>
+</body>
+</html>

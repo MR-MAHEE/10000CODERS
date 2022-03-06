@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRING METHODS</title>
+</head>
+<body>
+    <script>
+        
+        //string ans string methods
+
+        //string length
+
+        const testString = 'this is test';
+        console.log(testString.length);
+        console.log(testString.length - 4);
+        console.log(testString.length * 2);
+        console.log(testString.length % 3);
+
+        let ary = [];
+        for(let i = 0; i < testString.length; i++){
+            if(i%2 == 1){
+                ary.push(testString[i]);
+            }
+        }
+        console.log(ary);
+
+        //includes
+
+        console.log(testString.includes(''));
+        console.log(testString.includes('i'));
+        console.log(testString.includes('i',6));
+
+        //slice
+
+        testString.slice();
+        console.log(testString);
+        testString.slice(0,2);
+        console.log(testString);
+
+        testStringSlice = testString.slice();
+        console.log(testStringSlice);
+
+        testStringSlice = testString.slice(0,4);
+        console.log(testStringSlice);
+
+        testStringSlice = testString.slice(2,8);
+        console.log(testStringSlice);
+
+        testStringSlice = testString.slice(2,0);
+        console.log(testStringSlice);
+
+        //indexOf and lastIndexOf
+
+        console.log(testString.indexOf('i'));
+        console.log(testString.indexOf('t'));
+        console.log(testString.indexOf('t',1));
+        console.log(testString.indexOf('z'));
+        console.log(testString.lastIndexOf('i'));
+        console.log(testString.lastIndexOf('t'));
+        console.log(testString.lastIndexOf('z'));
+
+        //search
+
+        console.log(testString.search('i'));
+        console.log(testString.search('t'));
+        console.log(testString.search('t',1));
+        console.log(testString.search('z'));
+
+        //startsWith
+
+        console.log(testString.startsWith(''));
+        console.log(testString.startsWith());
+        console.log(testString.startsWith('t'));
+        console.log(testString.startsWith('i'));
+        console.log(testString.startsWith('a'));
+        console.log(testString.startsWith('e'));
+
+        //endsWith
+
+        console.log(testString.endsWith());
+        console.log(testString.endsWith(''));
+        console.log(testString.endsWith('t'));
+        console.log(testString.endsWith('s'));
+
+        //split
+
+        console.log(testString.split());
+        console.log(testString.split(''));
+        console.log(testString.split(' '));
+        console.log(testString.split('t'));
+
+        //toLowerCase
+
+        console.log(testString.toLowerCase());
+
+        //toUpperCase
+
+        console.log(testString.toUpperCase());
+
+        //concat
+
+        const myString = 'i am testing String methods in java script, string methods are easy ';
+        console.log(myString.concat(testString));
+
+        //charAt
+
+        console.log(myString.charAt(0));
+        console.log(myString.charAt(8));
+        
+        //replace
+
+        console.log(myString.replace('string','array'));
+        console.log(myString.replace(/string/i,'array'));
+
+        //replaceAll
+
+        console.log(myString.replaceAll('string','array'));
+        // console.log(myString.replaceAll(/string/i,'array'));
+
+        //trim
+
+        const test = '       this is a test        ';
+        console.log(test);
+        console.log(test.trim());
+        console.log(test.trimEnd());
+        console.log(test.trimStart());
+
+        const testTrim = '   this is a test   '+'this is also a test';
+        console.log(testTrim);
+        console.log(testTrim.trim());
+
+        //Objects and Array of Objects
+
+        let userInformation = [
+            {
+                firstName : 'mahesh',
+                place : 'hyderabad',
+                course : 'html'
+            },
+            {
+                firstName : 'yashwanth',
+                place : 'assam',
+                course : 'css'
+            },
+            {
+                firstName : 'ram',
+                place : 'banglore',
+                course : 'java script'
+            },
+            {
+                firstName : 'raj',
+                place : 'mumbai',
+                course : 'react'
+            }
+        ];
+        console.log(userInformation);
+        console.log(userInformation[0].firstName);
+        console.log(userInformation[2].place);
+        console.log(userInformation[3].course,userInformation[0].place);
+
+        for(i=0; i<userInformation.length; i++){
+            console.log(userInformation[i].course);
+        }
+        for(i=0; i<userInformation.length; i++){
+            console.log(userInformation[i].course,userInformation[i].firstName);
+        }
+
+        let testArray = [];
+        for(i=0; i<userInformation.length; i++){
+            testArray.push(userInformation[i].firstName,userInformation[i].course,userInformation[i].place);
+        }
+        console.log(testArray);
+
+        let testAry = [[],[],[]];
+        for(i=0; i<userInformation.length; i++){
+            testAry[0].push(userInformation[i].firstName);
+            testAry[1].push(userInformation[i].place);
+            testAry[2].push(userInformation[i].course);
+        }
+        console.log(testAry);
+        console.log(testArray.toString());
+    </script>
+</body>
+</html>
